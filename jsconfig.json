@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./*"]
+    },
+    "baseUrl": ".", // Reference root folder to prevent ../../../../
+  }
+}
