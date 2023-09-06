@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { urlFor } from "@/lib/api";
 
 const CardItem = ({ author, title, subtitle, image, date, link }) => {
+    debugger;
     return(
         <Card className={`fj-card`}>
             <div className="card-body-wrapper">
@@ -21,8 +22,8 @@ const CardItem = ({ author, title, subtitle, image, date, link }) => {
             </Card.Header>
             <div className="view overlay">
                 <Card.Img
-                // src={urlFor(image).height(300).url()}
-                src={image}
+                src={urlFor(image).height(400).url()}
+                //src={image}
                 alt="Card image cap"
                 />
             </div>

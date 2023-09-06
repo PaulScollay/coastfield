@@ -9,3 +9,5 @@ export const useGetBlogs = (initialData) => {
         fallbackData: initialData
     })
 }
+
+export const getBlogs = (url) => fetcher(url);

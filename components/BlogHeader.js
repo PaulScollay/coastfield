@@ -1,6 +1,7 @@
-
+import { urlFor } from "@/lib/api";
 
 export default function BlogHeader({title, subtitle, coverImage, date, author}) {
+    debugger
     return(
         <div className="blog-detail-header">
             <p className="lead mb-0">

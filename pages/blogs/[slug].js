@@ -3,7 +3,6 @@ import { getBlogBySlug, getAllBlogs  } from "@/lib/api";
 import { Row, Col } from 'react-bootstrap'
 import BlogHeader from "@/components/BlogHeader";
 import BlogContent from "@/components/BlogContent";
-import { urlFor } from "@/lib/api";
 
 const BlogDetail = ({blog}) => {
     return (

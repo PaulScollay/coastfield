@@ -6,7 +6,7 @@ const BlogNavbar = () => {
   return (
     <Navbar
       className="fj-navbar fj-nav-base"
-      bg="transparent"q
+      bg="transparent"
       expand="lg" >
       <Navbar.Brand className="fj-navbar-brand">
       <Link legacyBehavior href="/">

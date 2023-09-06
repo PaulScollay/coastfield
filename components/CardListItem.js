@@ -4,7 +4,7 @@ import Link from 'next/link';
 const CardListItem = ({title, subtitle, author, link, date}) => {
     return (
     <Card className={`fj-card fj-card-list`}>
-    {/* <div className="card-body-wrapper">
+    <div className="card-body-wrapper">
     <Card.Header
         className="d-flex flex-row">
         <img
@@ -21,14 +21,14 @@ const CardListItem = ({title, subtitle, author, link, date}) => {
         <Card.Title className="card-main-title">{title}</Card.Title>
           <Card.Text>{subtitle}</Card.Text>
     </Card.Body>
-    </div> */}
-    {/* { link &&
+    </div>
+    { link &&
         <Link legacyBehavior {...link}>
           <a className="card-button">
             Read More
           </a>
         </Link>
-      } */}
+      }
     </Card>
     )
 }  
